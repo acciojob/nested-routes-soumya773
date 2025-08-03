@@ -34,7 +34,7 @@ function Women() {
   const items = ["Grooming", "Shirt", "Trouser","jewellery"];
   return (
     <div>
-      <h2>Women Category</h2>
+      <h2>Women Items</h2>
       <ul>
         {items.map((item, index) => (
           <li key={index}>
